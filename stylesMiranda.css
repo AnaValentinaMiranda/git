@@ -44,7 +44,7 @@
   background-color: rgb(182, 110, 248);
   border-right: 1px solid #fff;
   text-decoration: none;
-  cursor: wait;
+  cursor: -webkit-grabbing;
 }
 .imagen {
   display: flex;
@@ -93,6 +93,7 @@
   padding: 20px;
   margin-top: 5px;
   font-size: large;
+  display: flex;
 }
 
 .content > .texto h4,
@@ -187,6 +188,7 @@ div ol li {
   .img {
     width: 70%;
   }
+  
 
   /*INFO*/
   .fondo--info {
@@ -195,6 +197,10 @@ div ol li {
   }
   .contenedor .content {
     grid-column: 1/-1;
+  }
+  .content .textoInfo {
+    display: flex;
+    font-size: small;
   }
 
   .contenedor .barra {
